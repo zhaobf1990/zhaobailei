@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--通过android:background 指定背景-->
+<!--<TextView-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="带边框的文本"-->
+    <!--android:background="@drawable/notification_template_icon_bg\"-->
+
+    <!--/>-->
+    <!--通过android:@drawbleLeft 绘制一张图片-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="带图片的文本"
+        android:background="@drawable/wo"
+
+
+        />
+
+
+</LinearLayout>

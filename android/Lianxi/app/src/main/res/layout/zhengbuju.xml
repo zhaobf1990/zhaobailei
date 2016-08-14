@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_gravity="center"
+        android:background="#00ff00"
+        android:id="@+id/tv1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="第一个页面"
+        />
+    <TextView
+        android:layout_gravity="center"
+        android:background="#FFD700"
+        android:id="@+id/tv2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:text="第er个页面"
+        />
+    <TextView
+        android:layout_gravity="center"
+        android:background="#ff0000"
+        android:id="@+id/tv3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="第三个页面"
+        />
+    <TextView
+        android:layout_gravity="center"
+        android:background="#0000ff"
+        android:id="@+id/tv4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="第四个页面"
+        />
+
+</FrameLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="用户名"
+            android:textSize="10pt" />
+
+        <EditText
+            android:layout_width="123dp"
+            android:layout_height="56dp"
+            android:hint="请填写登入账号"
+            android:selectAllOnFocus="true" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="密码"
+            android:textSize="10pt" />
+
+        <EditText
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:password="true"
+
+            android:id="@+id/text" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="169dp"
+        android:id="@+id/t">
+
+    <TextView
+            android:layout_width="102dp"
+            android:layout_height="71dp"
+            android:text="电话号码"
+            android:textSize="10pt"
+        android:id="@+id/text2"
+
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="请填写你的电话号码"
+
+            android:phoneNumber="true"
+            android:selectAllOnFocus="true" />
+    </TableRow>
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="62dp"
+        android:text="注册"
+        android:layout_weight="1.53" />
+
+
+</LinearLayout>

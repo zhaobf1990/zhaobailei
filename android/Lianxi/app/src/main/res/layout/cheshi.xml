@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--相对布局-->
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/xiong1" />
+    <!--alignPanLeft 子类控件相对于当前父类容器靠左边-->
+    <!--marginLeft= 20dp  子类控件距离父类容器左边的距离-->
+    <!--marginTop= 24dp 子类控件距离父类容器上边的距离-->
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv1"
+        android:layout_toRightOf="@+id/iv1"
+        android:text="狗不理包子" />
+    <!--alignTop 该控件的局部边缘与给定ID控件的顶部对齐-->
+    <!--toRighOf 该控件位于给定ID 控件的右边-->
+    <TextView
+        android:id="@+id/tb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv1"
+        android:layout_below="@id/tv1"
+        android:text="价格20元一个" />
+    <!--alignLeft 该控件的左边缘与给定ID 的左边缘对齐-->
+    <!--below 该控件位于给定ID控件的底部-->
+
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tb2"
+        android:layout_below="@+id/tb2"
+        android:text="又贵又不好吃" />
+    <!--alignLeft 该控件的左边缘与给定ID 的左边缘对齐-->
+    <!--below 该控件位于给定ID控件的底部-->
+
+</RelativeLayout>

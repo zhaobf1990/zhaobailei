@@ -1,0 +1,46 @@
+﻿<html>
+	<head>
+	<style>
+
+	</style>
+	</head>
+	<body>
+		<form method="post"  >
+		<fieldset>
+			<legend>个人简历</legend>
+		<p>账号:<input name= "name" type = "text" value="请在这里输入账号" size="30" maxlength="10" readonly="readonly"></p>
+		<p>密码:<input name= "pass" type = "password"></p>
+		<p>性别:<input type="radio" name= "sex" id="man"/><label for="man">男</label>
+			<input type="radio" name= "sex" id="nv"/><label for="nv">女</label>
+		</p>
+		<p>爱好:<input type="checkbox" name="aihao" value="1" id="chi"><label for="chi">吃</label>
+		<input type="checkbox" name="aihao" value="2"id="wan"><label for="wan">玩</label>
+		<input type="checkbox" name="aihao" value="3" id="shui"><label for="shui">睡</label>
+		<p>上传简历:<input type ="file"/></p>
+		<p>所在城市:
+		<select name= "citys" id ="citys"> 
+			<option value="bj">北京</option>
+			<option value="sh">上海</option>
+			<option value="gz">广州</option>
+			<option value="hz" selected="selected">杭州</option>
+
+		</select>
+		
+		</p>
+		
+		<p>个人简介：
+			<textarea name= "jianjie" id="jianjie" cols = "30" rows="10"></textarea>
+		</p>
+		
+		
+		</p>
+		<p><input type= "submit" name="Button" value="登入">
+		<input type= "reset" name="Reset" value="重填">
+		<input type="image"  src="456.png"/>
+		<input type ="button" value="提交表单">
+		</p>
+		</fieldset>
+	
+	</body>
+	
+</html>

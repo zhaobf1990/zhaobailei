@@ -1,0 +1,85 @@
+﻿.red{
+	color:#ff0000	
+}
+
+#green{
+	color:#00ff00
+}
+
+body{
+/*	font-size:25px;
+	font-family:"微软雅黑" */
+	/*字体样式简写形式*/
+	font:italic bold 25px cursive,"微软雅黑";
+		background-color:red;
+	 background-image: url(123.jpg);
+	 background-repeat:no-repeat;
+	 background-position:100px 100px;
+	 
+}
+
+
+#hong{
+	font-size:12px;
+	color:#ff0000;	
+	/*加一个边框*/
+	border:1px solid red;
+	
+}
+
+
+
+#kuan{
+	width:200px;
+	height:280px;
+}
+
+#zise{
+	font-size:20px;
+	color:purple;
+	text-decoration:underline;
+	
+}
+
+#juzhong{
+	text-align:center;
+	
+}
+
+/* 设置超链接样式 */
+
+
+a:link{  /*（常用）未访问时*/
+	color:black;  /*黑色*/
+	texr-decoration:none; /*无下划线*/
+}
+a:visited{    /*单击访问过后*/
+	color:green;   /*绿色*/
+	text-decoration:none;
+}
+a:hover{/*<常用> 鼠标悬浮上的样式 */
+	color:red;
+	text-decoration:underline;  /* 下划线*/
+	cursor:crosshair;
+}
+a:active{/*未释放时的形式*/
+	color:yellow;
+	text-decoration:none;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

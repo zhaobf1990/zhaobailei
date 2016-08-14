@@ -1,0 +1,43 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript">
+        alert(4165456);  
+		//alert(446);
+		
+        function Map() {
+
+            var obj = {}; 
+         
+			 this.put = function (key, value) {
+				 obj[key] = value; 
+			 }
+        
+			 this.size = function () {
+			 var  count = 0;
+				 for (var attr in obj) {
+					 count++;
+				 }
+				 return count;
+			 }
+
+
+        }
+
+
+    
+        var m = new Map();
+        m.put('01', 'abc');
+        m.put('02', 120);
+        m.put('03', true);
+        m.put('04', new Date());
+
+        alert(m.size());
+        alert(4165456);
+	    alert(4165456);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
