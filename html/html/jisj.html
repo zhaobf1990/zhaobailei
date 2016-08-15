@@ -1,0 +1,48 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>无标题文档</title>
+    <script language="javascript">
+
+        function jsq(fh) {
+            var num1, num2;
+            num1 = parseFloat(document.form1.text1.value);
+            num2 = parseFloat(document.form1.text2.value);
+            if (fh == "+") document.form1.text3.value = num1 + num2;
+            if (fh == "-") document.form1.text3.value = num1 - num2;
+            if (fh == "*") document.form1.text3.value = num1 * num2;
+            if (fh == "/") if (num2 != 0) {
+                document.form1.text3.value = num1 / num2;
+            } else { alert("除数不能为零!") } 
+        } function text1_onclick() {
+
+        }
+
+    </script>
+</head>
+<body>
+    <form id="form1" name="form1" method="post" action="">
+    <label>
+        <input name="text1" type="text" id="text1" onclick="return text1_onclick()" />
+    </label>
+    <p>
+        <label>
+            <input name="text2" type="text" id="text2" />
+        </label>
+    </p>
+    <p>
+        <label>
+            <input name="Button1" type="Button" id="Button1" value="+" onclick="jsq('+')">
+            <input name="Button2" type="Button" id="Button2" value="-" onclick="jsq('-')" />
+            <input name="Button3" type="Button" id="Button3" value="*" onclick="jsq('*')" />
+            <input name="Button4" type="Button" id="Button4" value="/" onclick="jsq('/')" />
+        </label>
+    </p>
+    <p>
+        <label>
+            <input name="text3" type="text" id="text3" />
+        </label>
+    </p>
+    </form>
+</body>
+</html>

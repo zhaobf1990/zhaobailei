@@ -1,0 +1,55 @@
+<html>
+<head>
+
+<script >
+function add(number){
+   var result= document.getElementById("result");
+    
+   result.value=parseInt( result.value+number);
+}
+</script>
+</head>
+<body>
+<table>
+<tr>
+<td colspan = "5"><input id="result" type = "text" value="0" > </td>
+
+</tr>
+
+<tr>
+<td><input type="button" value="7"/></td>
+<td><input type= "button" value = "8"/></td>
+<td><input type= "button" value ="9"/></td>
+<td><input type="button" value="/"/></td>
+
+</tr>
+<tr>
+<td><input type="button" value="4"/></td>
+<td><input type= "button" value = "5"/></td>
+<td><input type= "button" value ="6"/></td>
+<td><input type="button" value="*"/></td>
+
+</tr>
+
+
+<tr>
+<td><input type="button" value="1" onclick="add(1)"/></td>
+<td><input type="button" value="2" onclick="add(2)"/></td>
+<td><input type="button" value="3" onclick="add(3)"/></td> 
+<td><input type="button" value="-"/></td>
+
+</tr>
+
+<tr>
+<td><input type="button" value="0"/></td>
+<td><input type= "button" value = "."/></td>
+<td><input type= "button" value ="+"/></td>
+<td><input type= "button" value ="="/></td>
+</tr>
+
+
+
+
+</table>
+</body>
+</html>

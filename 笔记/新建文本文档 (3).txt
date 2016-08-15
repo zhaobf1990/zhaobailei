@@ -1,0 +1,15 @@
+<!--
+	android:collapseColumns = 1,2
+		隐藏从0 开始的索引列.列直接必须用逗号隔开:1,2,5
+	android:shrinkColumns = 1,2
+		收缩从0开始的索引列.懂收缩的列太宽(内容过多)不会被
+		挤出屏幕,列直接必须用逗号隔开:1,2,5 可以通过 *代替所有列
+	android:stretchColumns = 1,2
+		拉伸从0开始的索引列,以填满剩下的多余空白空间
+		列直接必须用逗号隔开1,2,3, 可以通过 *代替收缩所有列
+
+	android:layout_column=1 该控件显示在第2列
+	
+	android:layout_span= 2 该控件占据2列
+
+-->
